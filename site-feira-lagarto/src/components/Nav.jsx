@@ -1,8 +1,8 @@
-
-import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex, Image, Link, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
-import Logo from '../assets/logo_site_sem_fundo.png';
-import {CaretRight} from "@phosphor-icons/react";
 import { useLocation } from 'react-router-dom';
+import {CaretRight} from "@phosphor-icons/react";
+import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex, Image, Link, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
+
+import Logo from '../assets/logo_site_sem_fundo.png';
 
 export function Nav() {
     const location = useLocation();
