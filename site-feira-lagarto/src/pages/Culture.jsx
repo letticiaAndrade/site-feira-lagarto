@@ -2,6 +2,8 @@ import { Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { Carrosel, Footer, Nav } from "../components";
 
 export function Culture() {
+    const year = new Date().getFullYear();
+
     return(
         <Flex w="100%" flexDirection="column" h="100%" bgGradient='linear(to-b, primary.100, primary.400)' alignItems="center">
         <Nav/>
@@ -18,6 +20,9 @@ export function Culture() {
         </Stack>
 
         <Footer/>
+
+        <Text>© {year} Instituto Federal de Sergipe. All rights reserved.</Text>
+
         </Flex>
     )
 }

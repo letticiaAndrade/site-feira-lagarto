@@ -25,6 +25,8 @@ export function Contact () {
             console.log(error.text);
         });
     };
+    
+    const year = new Date().getFullYear();
 
 
     return(
@@ -104,6 +106,9 @@ export function Contact () {
             </Flex>
 
             <Footer/>
+
+        <Text>© {year} Instituto Federal de Sergipe. All rights reserved.</Text>
+
         </Flex>
     )
 }
