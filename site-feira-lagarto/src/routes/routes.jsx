@@ -1,4 +1,4 @@
-import { Contact, Home } from "../pages";
+import { Contact, Culture, Home } from "../pages";
 import { Route, Routes } from "react-router-dom";
 
 export function RoutesApp() {
@@ -8,6 +8,8 @@ export function RoutesApp() {
             {/* TELAS REFERENTES A APLICAÇÃO */}
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/culture" element={<Culture />} />
+
 
         </Routes>
     )

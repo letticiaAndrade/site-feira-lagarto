@@ -38,7 +38,7 @@ export function Nav() {
               </BreadcrumbItem>
 
               <BreadcrumbItem isCurrentPage={currentPath === "/culture"}>
-          <BreadcrumbLink  color="primary.400" href='#'>Cultura</BreadcrumbLink>
+          <BreadcrumbLink  color="primary.400" href='/culture'>Cultura</BreadcrumbLink>
          </BreadcrumbItem>
 
         <BreadcrumbItem isCurrentPage={currentPath === "/services"}>
