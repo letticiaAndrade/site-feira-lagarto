@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 
 export function CardLojistas({image, title, description, number}) {
