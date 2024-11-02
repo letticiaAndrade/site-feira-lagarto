@@ -1,6 +1,7 @@
 import { Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 
 export function CardLojistas({image, title, description, number}) {
+    
     return(
         <>
         <Flex flexDirection="column" borderWidth={1} borderColor="dark.400" m={4} h={372} w={631} p={12}>

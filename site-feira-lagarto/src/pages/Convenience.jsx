@@ -1,5 +1,5 @@
-import { Flex } from "@chakra-ui/react";
-import { CardLojistas, Nav } from "../components";
+import { Flex, Text } from "@chakra-ui/react";
+import { CardLojistas, Footer, Nav } from "../components";
 
 import  Default from "../assets/logo_site_sem_fundo.png";
 
@@ -32,6 +32,7 @@ const listLojistas = [
 ]
 
 export function Convenience() {
+    const year = new Date().getFullYear();
 
     return (
         <Flex w="100%" flexDirection="column" h="100%" bgGradient='linear(to-b, primary.100, primary.400)' alignItems="center">
@@ -47,6 +48,11 @@ export function Convenience() {
                     />
                 ))}
             </Flex>
+
+            
+            <Footer/>
+
+            <Text>© {year} Instituto Federal de Sergipe. All rights reserved.</Text>
         </Flex>
     )
 }
