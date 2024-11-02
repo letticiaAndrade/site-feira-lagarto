@@ -7,10 +7,20 @@ import Mascote from "../assets/mascote_site_sunset.png"
 export function Home() {
     const year = new Date().getFullYear();
     return (
-        <Flex w="full" flexDirection="column" h="full" bgGradient='linear(to-b, primary.100, primary.400)' alignItems="center">
+        <Flex  w="100%"
+        flexDirection="column"
+        h="100%"
+        bgGradient="linear(to-b, primary.100, primary.400)"
+        alignItems="center"
+        p={4}>
 
         <Nav/>
-        <Flex alignItems="center" flexDirection="column" w={{base: 300, sm: 500, md:800, lg:1000 }}>
+        <Flex   justify="center"
+                alignItems="center"
+                flexDirection={{ base: "column", lg: "row" }}
+                w="full"
+                maxW="1200px"
+                px={{ base: 4, md: 8 }}>
         <Heading fontSize={{base:20, sm:28, md:32, lg: 48}} fontWeight="bold">É dia de feira meus amigos</Heading>
 
          <Text fontSize={18} textAlign="justify" >

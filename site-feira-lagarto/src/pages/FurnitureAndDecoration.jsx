@@ -34,9 +34,14 @@ const listLojistas = [
 export function FurnitureAndDecoration() {
     const year = new Date().getFullYear();
     return (
-        <Flex w="100%" flexDirection="column" h="100%" bgGradient='linear(to-b, primary.100, primary.400)' alignItems="center">
+        <Flex w="100%"
+        flexDirection="column"
+        h="100%"
+        bgGradient="linear(to-b, primary.100, primary.400)"
+        alignItems="center"
+        p={4}>
             <Nav/>
-            <Flex wrap="wrap" >
+            <Flex wrap="wrap" justifyContent="center" >
                 {listLojistas.map((lojista)=> (
                     <CardLojistas 
                     key={lojista.id}
