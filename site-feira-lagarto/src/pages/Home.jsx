@@ -15,12 +15,7 @@ export function Home() {
         p={4}>
 
         <Nav/>
-        <Flex   justify="center"
-                alignItems="center"
-                flexDirection={{ base: "column", lg: "row" }}
-                w="full"
-                maxW="1200px"
-                px={{ base: 4, md: 8 }}>
+        <Flex alignItems="center" flexDirection="column" mt={4} w={{base: 300, sm: 500, md:800, lg:1000 }}>
         <Heading fontSize={{base:20, sm:28, md:32, lg: 48}} fontWeight="bold">É dia de feira meus amigos</Heading>
 
          <Text fontSize={18} textAlign="justify" >
@@ -32,7 +27,7 @@ export function Home() {
         </Text>
 
 
-        <Image borderRadius={55} src={Mascote} objectFit="contain" w={590} h={581}/>
+        <Image mt={4} borderRadius={55} src={Mascote} objectFit="contain" w={590} h={581}/>
         
         </Flex>
 
