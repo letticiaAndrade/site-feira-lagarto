@@ -29,9 +29,11 @@ export function Nav() {
                   Lojistas
                 </MenuButton>
                 <MenuList>
-                  <MenuItem as={Link} href="/service1">Service 1</MenuItem>
-                  <MenuItem as={Link} href="/service2">Service 2</MenuItem>
-                  <MenuItem as={Link} href="/service3">Service 3</MenuItem>
+                  <MenuItem as={Link} href="/lojistas/conveniencia">Conveniência</MenuItem>
+                  <MenuItem as={Link} href="/lojistas/supermercados">Supermercados</MenuItem>
+                  <MenuItem as={Link} href="/lojistas/modaEvestuario">Moda e Vestuário</MenuItem>
+                  <MenuItem as={Link} href="/lojistas/moveisEdecoracao">Móveis e Decoração</MenuItem>
+                  <MenuItem as={Link} href="/lojistas/oficinasMecanicas">Oficinas e Mecânicas</MenuItem>
                 </MenuList>
               </Menu>
               </BreadcrumbLink>
@@ -42,7 +44,7 @@ export function Nav() {
          </BreadcrumbItem>
 
         <BreadcrumbItem isCurrentPage={currentPath === "/services"}>
-          <BreadcrumbLink color="primary.400" href='#'>Serviços</BreadcrumbLink>
+          <BreadcrumbLink color="primary.400" href='/services'>Serviços</BreadcrumbLink>
          </BreadcrumbItem>
 
          <BreadcrumbItem isCurrentPage={currentPath === "/contact"}>

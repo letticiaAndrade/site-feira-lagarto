@@ -28,7 +28,6 @@ export function Contact () {
     
     const year = new Date().getFullYear();
 
-
     return(
         <Flex w="100%" flexDirection="column" h="100%" bgGradient='linear(to-b, primary.100, primary.400)' alignItems="center">
 
