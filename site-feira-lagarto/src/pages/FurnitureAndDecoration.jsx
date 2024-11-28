@@ -55,7 +55,7 @@ export function FurnitureAndDecoration() {
 
             <Footer/>
 
-            <Text>© {year} Instituto Federal de Sergipe. All rights reserved.</Text>
+            <Text>© {year} All rights reserved.</Text>
         </Flex>
     )
 }

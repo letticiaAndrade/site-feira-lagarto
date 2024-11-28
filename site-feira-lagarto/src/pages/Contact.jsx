@@ -126,7 +126,7 @@ export function Contact() {
             </Flex>
 
             <Footer />
-            <Text mt={4} fontSize="sm">© {year} Instituto Federal de Sergipe. All rights reserved.</Text>
+            <Text mt={4} fontSize="sm">© {year} All rights reserved.</Text>
         </Flex>
     );
 }
